@@ -1,0 +1,22 @@
+body {background-color:#202020;background-size:cover;background-image:url("obrazy/tlo.png");color:#ffffff;font-family:sans-serif;}
+p {text-shadow:3px 3px 5px #000000,3px 3px 5px #000000;color:#ffffff;font-family:sans-serif;font-size:16px;}
+h2 {padding-top:25px;text-shadow:3px 3px 5px #000000;margin-left:2px;}
+.logo {display:inline;}
+.logo p {position:absolute;top:40px;text-align:center;width:407px;}
+.cena {padding-top:125px;}
+.skrzynka {background-color:#505050;border:solid 2px #42a32a;padding:0;margin-right:5px;margin-bottom:10px;transition:0.5s;width:150px;display:inline-block;}
+.skrzynka p {color:#ffffff;font-family:sans-serif;font-size:16px;position:absolute;margin-left:5px;margin-top:5px}
+.skrzynka:hover {background-color:#808080;border:solid 2px #42a32a;}
+.wpis {width:300px;border-radius: 4px; background-color: #ffffff; border: 3px solid black; color: #000000; font-size: 19px; padding: 8px; margin: 0px; margin-top: 4px; right: 7px; margin-right:10px;}
+.przycisk {display:inline-block;border-radius:4px;background-color:#42a32a;border:none;color:#ffffff;text-align:center;font-size:19px;padding:10px;width:150px;transition:all0.5s;margin:0px;margin-top:4px;margin-right:2px;}
+.przycisk div {cursor:pointer;display:inline-block;position:relative;transition:0.5s;}
+.przycisk div:after {content:'\00bb';position:absolute;opacity:0;top:0;right:-20px;transition:0.5s;}
+.przycisk:hover div {padding-right:25px;}
+.przycisk:hover div:after {opacity:1;right:0;}
+.item {width:150px;height:150px;display:inline-block;position:relative;margin:2px;opacity:1;transition:0.25s;-webkit-transition:0.25s;}
+.item:hover {opacity:0.5;}
+#p90storm {background-image:url("https://4.bp.blogspot.com/-WhvGdp4tFkA/WigrEQqkaYI/AAAAAAAAAQA/gJb7tZh1Cc4azhgaMeF2aBMtoVtXaXTfwCLcBGAs/s1600/p90s.png");}
+#nozct {background-image:url("https://1.bp.blogspot.com/-Q0jAcr8JTvs/Wigr7H3Jo1I/AAAAAAAAAQI/aIc-hla-MOcTKq9B5BzV-ID2jaPXn0HSgCLcBGAs/s1600/n%25C3%25B3%25C5%25BC.png");}
+#tekst {font-size:14px;position:absolute;padding:2px;margin-left:3px;margin-top:113px;height:30px;width:140px;text-shadow:3px2px2px#000000;}
+#sprzedaj {position:absolute;width:150px;height:150px;transition:0.25s;-webkit-transition:0.25s;opacity:0;}
+#sprzedaj:hover {opacity:1;}
